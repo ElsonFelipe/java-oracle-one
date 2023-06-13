@@ -1,5 +1,4 @@
 public class testaPontoFlutuante {
-    
     public static void main(String[] args) {
 
         double salario;
@@ -15,8 +14,8 @@ public class testaPontoFlutuante {
         int outraDivisao = 5 / 2;
         System.out.println(outraDivisao);
 
-        double novaTentativa = 5.0 / 2;
-        System.out.println(novaTentativa);
+        double tentativa = 5.0 / 2;
+        System.out.println(tentativa);
         
     }
 }
