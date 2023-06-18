@@ -12,12 +12,15 @@ public class testaMetodo {
         conta contaDaMarcela = new conta();
         contaDaMarcela.deposita(1000);
 
-        if(contaDaMarcela.transfere(300, contaDoPaulo)) {
+        if(contaDaMarcela.transfere(3000, contaDoPaulo)) {
             System.out.println("Transferencia com sucesso");
         } else {
             System.out.println("Faltou dinheiro");
         }
         System.out.println(contaDaMarcela.saldo);
         System.out.println(contaDoPaulo.saldo);
+
+        contaDoPaulo.titular = "paulo Silveira";
+        System.out.println(contaDoPaulo.titular);
     }
 }
