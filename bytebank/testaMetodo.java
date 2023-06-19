@@ -1,6 +1,6 @@
 public class testaMetodo {
     public static void main(String[] args) {
-        conta contaDoPaulo = new conta();
+        Conta contaDoPaulo = new Conta();
         contaDoPaulo.saldo = (100);
         contaDoPaulo.deposita(50);
         System.out.println(contaDoPaulo.saldo);
@@ -9,7 +9,7 @@ public class testaMetodo {
         System.out.println(contaDoPaulo.saldo);
         System.out.println(consegiuRetirar);
 
-        conta contaDaMarcela = new conta();
+        Conta contaDaMarcela = new Conta();
         contaDaMarcela.deposita(1000);
 
         if(contaDaMarcela.transfere(3000, contaDoPaulo)) {

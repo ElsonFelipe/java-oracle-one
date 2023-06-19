@@ -1,6 +1,6 @@
 public class testeSacaNegativo {
     public static void main(String[] args) {
-        conta conta = new conta();
+        Conta conta = new Conta();
         conta.deposita(100);
         System.out.println(conta.saca(200));
 

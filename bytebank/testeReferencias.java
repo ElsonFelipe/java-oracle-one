@@ -1,10 +1,10 @@
 public class testeReferencias {
     public static void main(String[] args) {
-        conta primeiraConta = new conta();
+        Conta primeiraConta = new Conta();
         primeiraConta.saldo = 300;
         System.out.println("Saldo da primeira conta: " + primeiraConta.saldo);
 
-        conta segundaConta = primeiraConta;
+        Conta segundaConta = primeiraConta;
         System.out.println("Saldo da segunda conta: " + segundaConta.saldo);
 
         segundaConta.saldo += 100;

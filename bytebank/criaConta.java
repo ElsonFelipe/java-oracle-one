@@ -1,10 +1,10 @@
 public class criaConta {
     public static void main(String[] args) {
-      conta primeiraConta = new conta();
+      Conta primeiraConta = new Conta();
       primeiraConta.saldo = 300;
       System.out.println(primeiraConta.saldo);
 
-      conta segundaConta = new conta();
+      Conta segundaConta = new Conta();
       segundaConta.saldo = 300;
 
       System.out.println("Primeira conta tem " + primeiraConta.saldo);
