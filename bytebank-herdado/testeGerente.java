@@ -1,6 +1,8 @@
 public class testeGerente {
 
     public static void main(String[] args) {
+        Autenticavel referencia = new Cliente();
+
         Gerente g1 = new Gerente();
         g1.setNome("Marcos");
         g1.setCpf("22222222-22");
